@@ -1,7 +1,21 @@
-#greycol {
-    color: #525252;
+ div.text-box :nth-child(2) {
+    color:pink;
 }
-#yellow {
-    text-decoration: yellow;
-    color: #ffff00;
+div.text-box :nth-child(4) {
+    color:gray;
+}
+div p {
+    color:red;
+}
+div.text-box :nth-child(7) {
+    color:green;
+}
+div.text-box :nth-child(8) {
+    color:yellow;
+} 
+div p :nth-child(3) {
+    color:gray;
+} 
+p#greycol {
+    color: red;
 }
